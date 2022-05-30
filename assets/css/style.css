@@ -1,0 +1,102 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  color: #172c66;
+  background-color: #fefde4;
+}
+
+.jumbotron {
+  font-size: 16px;
+  text-align: center;
+  background-color: transparent;
+  color: #001858;
+  border-radius: 0;
+  border-bottom: 10px solid #f582ae;
+  margin: 0px 0px 32px;
+  padding: 32px 32px;
+}
+
+.title {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0px 0px 8px;
+  color: #001858;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.schedule {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.time-block {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 80px;
+  background-color: #8bd3dd;
+  border-top: 1px solid white;
+  border-radius: 15px;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tblabel {
+  color: white;
+  justify-self: flex-start;
+  width: 100px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.timeinput {
+  background: transparent;
+  border: none;
+  resize: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  color: #172c66;
+  border-left: 1px solid black;
+  height: 95%;
+  width: 100%;
+  justify-self: center;
+}
+
+.saveBtn {
+  border: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #f582ae;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  color: #001858;
+  justify-self: flex-end;
+  height: 80px;
+  width: 100px;
+}
+
+.saveBtn:hover {
+  font-size: 32px;
+  background-color: #f79bbe;
+  transition: all 0.3s ease-in-out;
+}
+
+.past {
+  background-color: #e6f6f8;
+}
+
+.present {
+  background-color: #8bd3dd;
+}
+
+.future {
+  background-color: #1c5860;
+}
