@@ -2,7 +2,7 @@
 var day = moment().format("dddd");
 var date = moment().format("MMM Do YYYY");
 var hour = moment().format("h");
-var minute = moment().format("m");
+var minute = moment().format("mm");
 document.getElementById("currentDay").innerHTML = day + ", " + date;
 document.getElementById("currentTime").innerHTML =
   hour + ":" + minute + " " + moment().format("A");
