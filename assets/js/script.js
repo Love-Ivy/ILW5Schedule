@@ -30,6 +30,7 @@ function loadTask() {
     let usertb = timeblock.children[1];
     let utjson = localStorage.getItem(usertb.id);
     let userparse = JSON.parse(utjson);
+    console.log(userparse);
     if (userparse !== null) {
       usertb.value = userparse;
     }
@@ -45,6 +46,7 @@ for (let i = 0; i < savebuttons.length; i++) {
 //Save tasks to localstorage
 function saveTask(event) {
   let usertb = event.target.parentElement.children[1];
+  console.log(usertb.id);
   let usertext = usertb.value;
   let utjson = JSON.stringify(usertext);
   localStorage.setItem(usertb.id, utjson);
