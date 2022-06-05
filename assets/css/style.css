@@ -93,6 +93,9 @@ body {
 .past {
   background-color: #e6f6f8;
 }
+.past .tblabel {
+  color: #172c66;
+}
 
 .present {
   background-color: #8bd3dd;
