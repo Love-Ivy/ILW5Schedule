@@ -1,6 +1,6 @@
 //Create display of current time 'moment.js'
 var day = moment().format("dddd");
-var date = moment().format("MMM Do YYYY");
+var date = moment().format("MMMM Do YYYY");
 var hour = moment().format("h");
 var minute = moment().format("mm");
 document.getElementById("currentDay").innerHTML = day + ", " + date;
